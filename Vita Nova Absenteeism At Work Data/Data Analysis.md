@@ -128,4 +128,53 @@ ON a.ID = b.ID
 LEFT JOIN Reasons r 
 ON a.Reason_for_absence = r.Number
 ````
+As a result of this code, we will no longer see the columns we do not want to see in our table. In addition, even a person who does not understand the values of body mass index will now be able to have an idea about the person's weight status when looking at our table. and in the last change we made, a column showing the season in which the absence occurred.
+
+- Now that we have put our table in the form we want with SQL queries, we can now transfer our table to our Microsoft Power BI application and visualize our data to make a presentation.
+
+Before starting the visualization process, I created a wire frame in my head. Preparing such a template before starting the visualization and sharing it with the company before the end of the project makes my work easier and the company gets exactly what it wants in the final.
+
+Here's the wireframe I prepared:
+
+![wireframe](https://github.com/SalihYasin/Data-Analysis-1-/assets/117492474/f64268fa-a136-401a-8fd8-89e7cf366959)
+
+- I will start making additions to our dashboard from the main KPI section at the top left, and the first item I add will be the average absence time in hours.
+
+This is the most important indicator among all indicators. so we'll put it at the top
+
+![maın kpı](https://github.com/SalihYasin/Data-Analysis-1-/assets/117492474/7286a0ef-87c5-4497-84fa-a5efb9892719)
+
+- Secondly, I will add a narrative part.
+
+It is very important that we create a narrative that will support that most important indicator in terms of text usage and detailing.
   
+![Narrative](https://github.com/SalihYasin/Data-Analysis-1-/assets/117492474/687f4e42-0b38-4749-969e-4c208e1a3682)
+
+- Now we move on to the next section and I will add secondary KPI.
+
+This part will consist of two parts. The first part will show the total number of employees and the second part will show the total absences made.
+
+![Secondary KPI](https://github.com/SalihYasin/Data-Analysis-1-/assets/117492474/cc209ab8-18a2-40e8-ac86-c631cf65d751)
+
+- Let's add 4 Pie charts to the side as we planned.
+
+The first of these pie charts will show us the education level, the second will show us the place of pet ownership, and the third and fourth charts will show us about smoking and drinking alcohol.
+
+![pie chartsss](https://github.com/SalihYasin/Data-Analysis-1-/assets/117492474/3a906d39-8dde-45c4-bbc8-0c4e58e5407f)
+
+- Next up are the Monthly and Weekly Breakdown sections.
+
+These two graphs allow us to make a comparison between the month and day of absence and the average absence. I will also add another section to the left of these two graphs where we can select the seasons.
+
+![Monthly and Weekly Breakdown](https://github.com/SalihYasin/Data-Analysis-1-/assets/117492474/1c7dbb13-22fd-4b82-ab62-0c7b58045234)
+
+- We have come to the last part: table breakdown and scatter plot variable comparison part
+
+While the indicator on the left of this section gives us an idea about the reason for absenteeism through numbers, the indicator on the right gives us a visual idea in the form of a distribution graph.
+
+![Table Breakdown and ](https://github.com/SalihYasin/Data-Analysis-1-/assets/117492474/a9f84080-a699-4b3e-a2c1-d15708922dde)
+
+Now that we have added all the graphics we specified on the wireframe and are sure that all our buttons are working, we are ready to see the final version of our table. Now that we have saved our table, I will need to go to the company for the presentation.
+
+![absenteııısm fınals ‐ Clipchamp ile yapıldı (1)](https://github.com/SalihYasin/Data-Analysis-1-/assets/117492474/609281d8-25f4-4161-ab5d-3752d31b0e00)
+
